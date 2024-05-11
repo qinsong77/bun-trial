@@ -1,0 +1,21 @@
+{
+  "name": "bun-trial",
+  "private": true,
+  "version": "0.0.1",
+  "description": "bun trial",
+  "author": "sysuke",
+  "license": "ISC",
+  "scripts": {
+    "asynclocalstorage:dev": "bun run demos/AsyncLocalStorage/index.tsx --hot"
+  },
+  "dependencies": {
+    "react": "^19.0.0-beta-04b058868c-20240508",
+    "react-dom": "^19.0.0-beta-04b058868c-20240508"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.1",
+    "@types/node": "^20.12.11",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0"
+  }
+}
