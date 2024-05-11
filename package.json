@@ -6,6 +6,8 @@
   "author": "sysuke",
   "license": "ISC",
   "scripts": {
+    "check lint & format": "biome check ./demos",
+    "fix lint & format": "biome format ./demos --write",
     "asynclocalstorage:dev": "bun run demos/AsyncLocalStorage/index.tsx --hot"
   },
   "dependencies": {
@@ -13,6 +15,7 @@
     "react-dom": "^19.0.0-beta-04b058868c-20240508"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.7.3",
     "@types/bun": "^1.1.1",
     "@types/node": "^20.12.11",
     "@types/react": "^18.3.1",
